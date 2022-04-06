@@ -1,0 +1,9 @@
+const prompt = require('prompt-sync')();
+
+var fname = prompt("Enter your name: ");
+var lname = prompt("Enter your last: ");
+
+var info1 = prompt("Do you have a SO?");
+
+
+console.log("You're full name is, ",fname,lname);
